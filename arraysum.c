@@ -30,7 +30,8 @@ int main() {
 	   printf("Child Process - Writing half array sum to pipe\n");
       write(pipefds[1], &hsum, sizeof(hsum));
       
-   } else { //parent process
+   } else //create a parent process 
+   { 
       wait(NULL);
       read(pipefds[0], &readsum, sizeof(readsum));
       printf("Parent Process - Reading from pipe\n");
