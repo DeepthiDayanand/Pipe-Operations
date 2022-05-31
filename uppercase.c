@@ -1,4 +1,4 @@
-//Using pipes working two strings 
+//Using pipes to handle two strings
 //One process takes strings as input and writes them to the pipe 
 //Other process reads from the pipe and changes the string to uppercase.
 
