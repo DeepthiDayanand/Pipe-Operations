@@ -1,4 +1,5 @@
-//Server process reads the output from the pipe, client must write the contents to a pipe
+//Server process reads the output from the pipe
+//Client must write the contents to a pipe
 
 
 #include<stdio.h>
